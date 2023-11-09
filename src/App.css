@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+
+.card {
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: #f8f8f8;
+  transition: all 0.1s ease-in-out;
+}
+ 
+.card:hover {
+  box-shadow: 0.25rem 0.25rem rgb(20, 165, 146);
+  translate: -0.25rem -0.25rem;
+}
+ 
+.card > h2 {
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(24, 121, 151);
+}
+ 
+.card > img {
+  border-radius: 1rem;
+  transition: all 0.1s ease-in-out;
+  border: 0.1rem solid black;
+}
+ 
+.card:hover > img {
+  translate: -0.25rem -0.25rem;
+  box-shadow: 0.25rem 0.25rem #a6e5fe;
+}
