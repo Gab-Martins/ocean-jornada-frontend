@@ -53,13 +53,16 @@
 .card:hover {
   box-shadow: 0.25rem 0.25rem rgb(20, 165, 146);
   translate: -0.25rem -0.25rem;
+  text-shadow: -0.15rem 0.15rem rgb(98, 56, 177);
+  cursor: pointer;
 }
  
 .card > h2 {
   font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(24, 121, 151);
+  color: rgb(56, 164, 197);
+  
 }
- 
+
 .card > img {
   border-radius: 1rem;
   transition: all 0.1s ease-in-out;
