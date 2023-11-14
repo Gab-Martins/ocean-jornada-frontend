@@ -14,14 +14,12 @@ function App() {
     name: "Summer Smith",
     imageUrl: "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
 }
+  const itens = [item1, item2, item3]
   return (
     <>
-      <br />
-      <Card item = {item1}/>
-      <br />
-      <Card item = {item2}/>
-      <br />
-      <Card item = {item3}/>
+      {itens.map(function(item){
+        return <Card item = {item}/>
+      })}
     </>
   )
 }
