@@ -10,12 +10,18 @@ function App() {
     name: " Morty",
     imageUrl: "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
 }
+  const item3 = {
+    name: "Summer Smith",
+    imageUrl: "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+}
   return (
     <>
       <br />
       <Card item = {item1}/>
       <br />
       <Card item = {item2}/>
+      <br />
+      <Card item = {item3}/>
     </>
   )
 }
