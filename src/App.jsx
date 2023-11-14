@@ -4,7 +4,8 @@ import Card from './components/Card/Card'
 function App() {
   const item1 = {
     name: "Rick Sanchez",
-    imageUrl: "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    imageUrl: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    tags: ["Status:Vivo", "AAA:aaa", "BBB:bbb"]
   }
   const item2 = {
     name: " Morty",
@@ -17,9 +18,11 @@ function App() {
   const itens = [item1, item2, item3]
   return (
     <>
+      <div className='cards'>
       {itens.map(function(item){
         return <Card item = {item}/>
       })}
+      </div>
     </>
   )
 }

@@ -90,3 +90,10 @@
   font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.75rem;
 }
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
